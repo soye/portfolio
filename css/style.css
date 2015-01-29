@@ -1,0 +1,127 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #000000;
+	width: auto;
+	padding: 0px;
+}
+
+p {
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+	color: #CC6600;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000000;
+	transition: ease all 0.2s; 
+	-webkit-transition: ease all 0.2s;
+	-moz-transition: ease all 0.2s;
+	-o-transition: ease all 0.2s;
+}
+
+a.darken {
+    display: inline-block;
+    background: black;
+    padding: 0;
+}
+
+a.darken img {
+    display: block;
+
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: ease all 0.2s linear;
+}
+
+a.darken:hover img {
+    opacity: 0.7;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-rendering: optimizeLegibility;
+	font-family: sans-serif;
+	color: #000000;
+}
+
+h1 {
+	font-size: 56px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: -2px;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+	letter-spacing: -1px;
+	text-transform: lowercase;
+}
+
+div #outer {
+	position: relative;
+}
+
+div #my_work {
+	position: absolute;
+	left: 364px; /* 35%; /*466*/
+	top: 130px; /*17%;*/
+	height: 200px; /*21%;*/
+	width: 550px;
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap; 
+	vertical-align: center;
+}
+
+div #my_art {
+	position: absolute;
+	left: 364px; /*35%;*/
+	top: 475px; /*60%; 620px;*/
+	height: 175px;
+	width: 550px;
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
+
+.thumbnail {
+	height: 160px;
+	width: auto;
+}
+
+.thumbnail_work {
+	max-height: 200px;
+	min-height: 150px;
+	max-width: 240px;
+	width: auto;
+}
+
+.fit { /* set relative picture size */
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.left {
+	display: block;
+	margin: auto;
+	float: left;
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Sophie Ye</title>
+		<link type="text/css" rel="stylesheet" media="all" href="css/style.css" />
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+	</head>
+	<body>
+		<div id="test" style="height:100%; max-height:100%; width:auto; position: relative;">
+			<img src="images/home_1366x1024_4.png" id="img_nav" usemap="#nav" class="left fit" />
+			<map name="nav" id="map_nav">
+				<area shape="rect" coords="117,450,245,469" id="aboutme" href=""  onmouseover="highlightLink(this, 476)" />
+				<area shape="rect" coords="128,474,233,506" id="resume" href="docs/resume_20150126.pdf" onmouseover="highlightLink(this, 508)" />
+				<area shape="rect" coords="45,565,190,675" id="contact" href="mailto:sophieye{AT}stanford{DOT}edu" onmouseover="highlightLink(this, 680)" />
+			</map>
+
+			<div id="my_work">
+				<a href="" data-target="#vg_full" data-toggle="modal" class="darken"><img src="images/vg_thumb.PNG" class="thumbnail_work"></a>&nbsp;
+				<a href="" data-target="#tl_full" data-toggle="modal" class="darken"><img src="images/tl_thumb.PNG" class="thumbnail_work"></a>
+			</div>
+
+			<div id="my_art">
+				<a href="" data-target="#samo_full" data-toggle="modal" class="darken"><img src="images/samo_thumb.PNG" class="thumbnail"></a>&nbsp;
+				<a href="" data-target="#window2_full" data-toggle="modal" class="darken"><img src="images/window2_thumb.PNG" class="thumbnail"></a>&nbsp;
+				<a href="" data-target="#youth_full" data-toggle="modal" class="darken"><img src="images/youth_thumb.PNG" class="thumbnail"></a>&nbsp;
+				<a href="" data-target="#woman_full" data-toggle="modal" class="darken"><img src="images/woman_thumb.PNG" class="thumbnail"></a>
+			</div>
+		</div>
+
+		<!-- Modal for aboutme -->
+		<div class="modal fade" id="aboutme_full" tabindex="-1" role="dialog" aria-labelledby="aboutme" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="aboutme"><i>Who is Sophie Ye anyways?</i></h4>
+			  </div>
+			  <div class="modal-body">
+				<p>Hi there! My name is Sophie Ye and it's a pleasure to meet you.</p>
+				<p>I am a junior at Stanford University, eagerly exploring and learning as much as I can.
+				My interests are broad, and I am always up for a good read or discussion on topics in psychology, 
+				philosophy, technology, and life. When away from my desk, I enjoy visiting the latest art exhibit, discovering new places, and talking to others about their lives.</p>
+			  </div>
+			  <div class="modal-footer">
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<!-- Modal for vg -->
+		<div class="modal fade" id="vg_full" tabindex="-1" role="dialog" aria-labelledby="vg" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="vg"><i>VirtualGallery</i>. CS 147. Web app.</h4>
+			  </div>
+			  <div class="modal-body">
+				<center><img src="images/vg_550.PNG"></center>
+				<p>Aimed to decrease the awkwardness of new social interactions, VirtualGallery aims to connect you with others in the area based on your interests. Using design thinking, rapid prototyping, and an iterative process, we came up with a web app that provides a fun and effective way of getting to know others.</p>
+			  </div>
+			  <div class="modal-footer">
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<!-- Modal for tl -->
+		<div class="modal fade" id="tl_full" tabindex="-1" role="dialog" aria-labelledby="tl" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="tl"><i>Does Culture Influence Bicultural Individuals' Ideal Affect?</i>. Tsai Lab. Research poster.</h4>
+			  </div>
+			  <div class="modal-body">
+				<center><img src="images/tl_550.PNG"></center>
+				<p>Worked in the Tsai Lab (Culture and Emotion) for nine months, including full-time during the summer. Research focused on the affect of bicultural individuals given cues. Marginally significant results seemed to point to a correlation between cultural cues and changes in affect. The full research poster is <a href="docs/poster_20130822_bicultural.pdf">here</a>.</p>
+			  </div>
+			  <div class="modal-footer">
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<!-- Modal for samo -->
+		<div class="modal fade" id="samo_full" tabindex="-1" role="dialog" aria-labelledby="samo" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="samo"><i>Winged Victory of Samothrace</i>. Graphite. 9" x 12".</h4>
+			  </div>
+			  <div class="modal-body">
+				<center><img src="images/samo_550.png"></center>
+			  </div>
+			  <div class="modal-footer">
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<!-- Modal for window2 -->
+		<div class="modal fade" id="window2_full" tabindex="-1" role="dialog" aria-labelledby="window2" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="window2"><i>Windows of America (Part 2)</i>. Oil Paint. 16" x 20".</h4>
+			  </div>
+			  <div class="modal-body">
+				<center><img src="images/window2_550.png"></center>
+			  </div>
+			  <div class="modal-footer">
+			  </div>
+			</div>
+		  </div>
+		</div>		
+
+		<!-- Modal for woman -->
+		<div class="modal fade" id="woman_full" tabindex="-1" role="dialog" aria-labelledby="woman" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="woman"><i>Portrait of a young woman</i>. Graphite. 9" x 12".</h4>
+			  </div>
+			  <div class="modal-body">
+				<center><img src="images/woman_500.png"></center>
+			  </div>
+			  <div class="modal-footer">
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<!-- Modal for youth -->
+		<div class="modal fade" id="youth_full" tabindex="-1" role="dialog" aria-labelledby="youth" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="youth"><i>Discontent youth.</i>. Graphite. 9" x 12".</h4>
+			  </div>
+			  <div class="modal-body">
+				<center><img src="images/youth_500.png"></center>
+			  </div>
+			  <div class="modal-footer">
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<!-- scripts -->
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" language="JavaScript">
+			function set_body_height() {
+				$('body').height($(window).height());
+			}
+
+			$(document).ready(function() {
+				$(window).bind('resize', set_body_height);
+				set_body_height();
+			});
+		</script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/imageMapResizer.js"></script>
+		<script src="js/custom.js"></script>
+
+		<!-- pre-load images for links (from http://perishablepress.com/3-ways-preload-images-css-javascript-ajax/) -->
+		<div class="hidden">
+			<script type="text/javascript">
+				<!--//--><![CDATA[//><!--
+					var images = new Array()
+					function preload() {
+						for (i = 0; i < preload.arguments.length; i++) {
+							images[i] = new Image()
+							images[i].src = preload.arguments[i]
+						}
+					}
+					preload(
+						"images/aboutme_1366x1024_3.PNG",
+						"images/resume_1366x1024_3.PNG",
+						"images/contact_1366x1024_3.PNG"
+					)
+				//--><!]]>
+			</script>
+		</div>
+	</body>
+</html>
